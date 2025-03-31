@@ -1,0 +1,77 @@
+.container{
+    margin: auto;
+    border: 2px solid black;
+    height: 80vh;
+    width: 100vh;
+    border-radius:18px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: beige;
+}
+.selection{
+    position: relative;
+    height: 48vh;
+    width: 80vh;
+    border: 2px solid black;
+    border-radius:18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 241, 199);
+}
+.selected-item-box{
+    height: 20vh;
+    width: 83.8vh;
+    border: 2px solid black;
+    border-radius:18px;
+    background-color: rgb(255, 230, 179);
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-items{
+    height: 4.5vh;
+    width: 18vh;
+    border: 2px solid black;
+    border-radius:18px;
+    margin:8px;
+    font-size: 1.8vh;
+    font-weight: 800;
+    padding-left: 0.8vh;
+    background-color: bisque;
+    transition:0.2s ease-in;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding-top: 0.8px;
+    cursor: pointer;
+}
+.food-items:hover{
+    border: 2px solid white;
+}
+.food-items:active{
+    background-color: orange;
+}
+.added-food{
+    height: 4.5vh;
+    width: 18vh;
+    border: 2px solid black;
+    border-radius:18px;
+    font-size: 1.8vh;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: start;
+    text-align: start;
+    padding-top: 0.8px;
+    padding-left: 0.8vh;
+    display: flex;
+    margin-left: 0.8vh;
+    margin-top: 0.68vh;
+    justify-content: space-between;
+    padding-right:0.8vh;
+    padding-top:0.8vh;
+    transition: 0.5s;
+}
+i{
+    cursor: pointer;
+}
